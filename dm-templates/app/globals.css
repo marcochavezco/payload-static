@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+* {
+  margin: 0;
+}
+#postcard {
+  width: 11.25in;
+  height: 6.25in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#safe-area {
+  width: 10.75in;
+  height: 5.75in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
